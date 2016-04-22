@@ -1,0 +1,43 @@
+
+/*css page for navigation bar in all the pages*/
+
+nav {
+	margin: 0;
+	padding: 0;
+	font-family: "Calibri";
+	border-bottom: 3px solid #590000;
+	font-size: 16px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	flex: 1;
+	margin: 0;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 0.5rem;
+	display: block;
+	margin: 0;
+	color: #FFFFFF;
+	border-radius: 4px;
+}
+
+nav ul li a:hover {
+	background-color: #590000;
+	opacity: 0.8;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+
+
+

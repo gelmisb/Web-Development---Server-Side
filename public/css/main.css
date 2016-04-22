@@ -1,0 +1,65 @@
+
+/*main css page for the index main page*/
+
+body {
+	color: #ffffff;
+	font-family: "Calibri";
+	font-size: 15px;
+	padding: 0;
+}		
+
+h1, 
+h2, 
+h3 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.main_p {
+	padding: 15px;
+	border: 3px solid #000000;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px;
+	text-align: center;
+}
+
+.columns {
+	display: flex;
+	width: 900px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.columns section{
+	flex: 1;
+}
+
+
+.two_columns {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.two_columns section {
+	flex: 1;
+}
+
+.two_columns section p {
+	color: #ffffff;
+	margin: 20px;
+}
+.columns h2 {
+	color: #191919;
+}
+.columns form {
+	color: #191919;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #989898;
+	border-radius: 10px 10px 10px;
+	width: 325px;
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
